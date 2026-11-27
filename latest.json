@@ -1,11 +1,11 @@
 {
-  "version": "0.2.196",
-  "notes": "1. 修复音量滑块填充盖不满轨道：填充高度随轨道自适应、宽度改百分比（旧值写死 64px 而轨道已 80px）、首屏补一次初始绘制，滑块与填充严格对齐。\n2. 修复播放控制条文字按钮图标偏高：图标统一下移 1px 与中文字身光学对齐。\n3. 全站文字按钮图标对齐统一：顶栏工具栏、左侧导航、各检测面板按钮、设置页 tab 一并处理，纯图标按钮不受影响。\n4. 控制条窄窗口自适应沿用 0.2.195：900px 宽下全部按钮完整可见。\n5. 右键菜单自绘与原生粘贴（Ctrl+V 走窗口级热键）沿用 0.2.195。",
-  "pub_date": "2026-11-27T06:26:48Z",
+  "version": "0.2.197",
+  "notes": "1. 直播转码 UDP 出流：输出统一加 1 MB 发送缓冲，修复高码率突发时丢包导致接收端花屏/锁不住流\n2. 未填组播 TTL 时默认按 32 发（整形转发同步），跨三层更稳\n3. 左侧「设置」改为独立整页显示（页头/页签/常驻保存条），不再从右侧抽屉弹出\n4. 输出根目录统一归档截图/录像/日志/证据片段\n5. 告警存储跟随根目录并置灰提示，关于页叹号垂直居中",
+  "pub_date": "2026-11-27T08:45:47Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW1hbEdkZFlIZXhmUnQ0RUFvRWp4blg3ajZjYkJ2SXdtUTVNMFJXK0NsSkZGaFNpeVlDV1lBT1hvNHZjc0dmenlwVEVuUzRpUDBUU2tUZitTczA5SkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzYwODA1CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTYKVmZSZHFGWTFkN0kzNDBQR0RQMGV5cmFNcjRCWS91Z0tQYkEyTUpJcTlZSlZlYmxJVzN5c1IrTE1qTkNrc1pJWDVXWUQzUnBXamdhRkxPbmFQS1FHQ1E9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.196/vqa-workbench-0.2.196-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW9lKzg5cG9WdENXQXVpSmRLbjlSNk5YQlpqWTJuSGRBckRpZHNXaWYyUUxuRy96dC9BTTkxMEc1V0k1M1N3dm1IajMxdUlnNDA4T0k3NXZzWE9BUFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzY5MTQ1CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTcKVEh0WWFNb3lJMDRHRU1ueVdCa0g2UklVNkRCM3p6TklzQkJ5T1QvbWJ1V3U3WGNyL1dTVzlZVjM2bHZHbDBTdE1TVldoUW90QlRoNmoxbFZRNlVGQWc9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.197/vqa-workbench-0.2.197-setup.exe"
     }
   }
 }
