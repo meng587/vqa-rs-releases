@@ -1,11 +1,11 @@
 {
-  "version": "0.2.195",
-  "notes": "0.2.195 更新\n1) 稳定性：启动时提示上一轮异常退出并可一键导出崩溃现场（含版本、数据目录、vqa.log 尾部）；导出目录只保留最近 5 份。\n2) 内存自监控：主进程工作集连续 5 分钟超过 1 GB，或整机内存使用率连续 5 分钟超过 85%，任一达标即在侧栏告警并写明原因。\n3) 外部看门狗：随包分发独立守护进程，主程序异常退出后自动拉起（上限 2 次）；升级安装时先结束守护，避免文件被占导致安装失败。\n4) 修复：Web 端崩溃提示静默失效；看门狗被第二实例误停；Windows 升级时 vqa-watchdog.exe 占用导致安装失败。\n5) 桌面端右键菜单改为自绘：关闭 WebView2 原生「重新加载/检查」菜单，输入框支持剪切、复制、粘贴、全选，粘贴改走原生 Ctrl+V，实测可用。\n6) 播放控制条自适应：窗口变窄或系统缩放变大后，按钮按宽度分级收窄，右侧「循环/倍速」不再被遮挡。",
-  "pub_date": "2026-11-27T04:10:29Z",
+  "version": "0.2.196",
+  "notes": "1. 修复音量滑块填充盖不满轨道：填充高度随轨道自适应、宽度改百分比（旧值写死 64px 而轨道已 80px）、首屏补一次初始绘制，滑块与填充严格对齐。\n2. 修复播放控制条文字按钮图标偏高：图标统一下移 1px 与中文字身光学对齐。\n3. 全站文字按钮图标对齐统一：顶栏工具栏、左侧导航、各检测面板按钮、设置页 tab 一并处理，纯图标按钮不受影响。\n4. 控制条窄窗口自适应沿用 0.2.195：900px 宽下全部按钮完整可见。\n5. 右键菜单自绘与原生粘贴（Ctrl+V 走窗口级热键）沿用 0.2.195。",
+  "pub_date": "2026-11-27T06:26:48Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWlSeFY5d2RsYWVZUld3UVpydkxuL3BoQjU1SFBiUndqeWJNTURlVGNsSUlIY25kclRYd3d3NzN1bmIzNGRyc3ZFRjBJanJsY2xNd0dwd1JsTXgxZUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzUyNjE1CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTUKNW5qaGdCc1FrY0kxTEljS0VpSFZuZlBwRUQ0WE8yZlg2c1F3dHp3OTBqU09zVCs5bEwzQjBFUDd1SGkrdWx5L2UvV3J1RkYrMldrelRZcWhzTHJ3RGc9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.195/vqa-workbench-0.2.195-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW1hbEdkZFlIZXhmUnQ0RUFvRWp4blg3ajZjYkJ2SXdtUTVNMFJXK0NsSkZGaFNpeVlDV1lBT1hvNHZjc0dmenlwVEVuUzRpUDBUU2tUZitTczA5SkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzYwODA1CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTYKVmZSZHFGWTFkN0kzNDBQR0RQMGV5cmFNcjRCWS91Z0tQYkEyTUpJcTlZSlZlYmxJVzN5c1IrTE1qTkNrc1pJWDVXWUQzUnBXamdhRkxPbmFQS1FHQ1E9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.196/vqa-workbench-0.2.196-setup.exe"
     }
   }
 }
