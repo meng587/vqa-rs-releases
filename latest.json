@@ -1,11 +1,11 @@
 {
-  "version": "0.2.199",
-  "notes": "1) 关于页「更新源 / AtomGit」两行地址改为可点击，点开由系统浏览器进入对应下载页；2) 修复单文件轮播不循环；3) 直播转码 UDP 出流 1MB 缓冲 + 默认 TTL 32；4) 左侧设置改为独立整页。",
-  "pub_date": "2026-11-27T09:45:01Z",
+  "version": "0.2.200",
+  "notes": "1. 设置页「检测口径」并入音画同步页，算法口径与参数集中一处；设置页只剩常规/AI 助手。\n2. 直播转码输出参数拆出独立「输出网卡」，组播源地址改为可任意填的纯源 IP；整形时按输出网卡强制组播出口。\n3. 多路判重改用真实目标地址（开整形时也能拦住同组播地址的第二路），去掉「再开一路」入口。\n4. 运行中改码率/GOP/音频/整形速率可点「保存并热更」就地重启这一路，断流约 1-2 秒；改分辨率/帧率/编码器与写盘输出会提示先停止。\n5. 关于页更新源两行可直接点开浏览器。",
+  "pub_date": "2026-11-27T12:15:42Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWpRWUYyd3hwR1VIZ3d0Mng5VjlYSkZtSWtJZ1F2dXBXSUFvaE41K1grMklBMzRMSjloMHM0Nk10dG1Ma0lhUUVSeE9qK1F6VkwzUEtpZ3hTS2M4QUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzcyNjk5CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTlfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTkKcHovcCtEZUpPSENaME9KQjZlZFM5NGNNL1BnVVhHS2ticCtXRjd3a0FuMXRkYmhMWTUvWnZSbEJlTm1HdlNGMldtTGQ2ZHhudXU2TjF0a3JLcG83Q3c9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.199/vqa-workbench-0.2.199-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZXR5S1h1NkhBcTYzdVpXSUZEbU1qZkdwcGovNU9hS1dHVGM0ekVXU28xUjJvY0hma0JjSlpBVjJmV1VMSVhnK3dpa2p0a1N0RENxZ1lDb1p6SDhuUVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzgxNzM5CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDAKT1d3MGxVb2hNenowdU5tRGZJRk95TmpXTW5yVGY0aFVjZWgyRTNCUnJuNzIvNTJLb2tLK3gvM3p1VS9KOUtiekY2eEdWSUttazFSemFTQ3ppdDVnQlE9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.200/vqa-workbench-0.2.200-setup.exe"
     }
   }
 }
