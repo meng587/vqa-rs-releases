@@ -1,11 +1,11 @@
 {
-  "version": "0.2.194",
-  "notes": "修复升级安装 NSIS Error（旧卸载器 _?= 目录解析）",
-  "pub_date": "2026-11-27T01:11:14Z",
+  "version": "0.2.195",
+  "notes": "0.2.195 更新\n1) 稳定性：启动时提示上一轮异常退出并可一键导出崩溃现场（含版本、数据目录、vqa.log 尾部）；导出目录只保留最近 5 份。\n2) 内存自监控：主进程工作集连续 5 分钟超过 1 GB，或整机内存使用率连续 5 分钟超过 85%，任一达标即在侧栏告警并写明原因。\n3) 外部看门狗：随包分发独立守护进程，主程序异常退出后自动拉起（上限 2 次）；升级安装时先结束守护，避免文件被占导致安装失败。\n4) 修复：Web 端崩溃提示静默失效；看门狗被第二实例误停；Windows 升级时 vqa-watchdog.exe 占用导致安装失败。\n5) 桌面端右键菜单改为自绘：关闭 WebView2 原生「重新加载/检查」菜单，输入框支持剪切、复制、粘贴、全选，粘贴改走原生 Ctrl+V，实测可用。\n6) 播放控制条自适应：窗口变窄或系统缩放变大后，按钮按宽度分级收窄，右侧「循环/倍速」不再被遮挡。",
+  "pub_date": "2026-11-27T04:10:29Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZXVYLzlQWnRIdmZGWEZPc3pleFIybkJ5SUNjWTdRTU9VTHFlemhheHZYZ1Eyb2JNSFdMcXR4NUlaQmx4b0w4b2dlby9UTmVzU2EvdjFVbFBuZ1NhcHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQxODYwCWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTQKUGkvSUZSQWhncFZ0NUlRbnByeVE3ZGZGQW1oSGViL1lwYTlzZzRyUXptcVhteGs0RVp6MWM3cWh2bU1aSzhoWEt0Nmx2TnJTVWFFaDFRcEVObWVsQWc9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.194/vqa-workbench-0.2.194-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWlSeFY5d2RsYWVZUld3UVpydkxuL3BoQjU1SFBiUndqeWJNTURlVGNsSUlIY25kclRYd3d3NzN1bmIzNGRyc3ZFRjBJanJsY2xNd0dwd1JsTXgxZUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzUyNjE1CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTUKNW5qaGdCc1FrY0kxTEljS0VpSFZuZlBwRUQ0WE8yZlg2c1F3dHp3OTBqU09zVCs5bEwzQjBFUDd1SGkrdWx5L2UvV3J1RkYrMldrelRZcWhzTHJ3RGc9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.195/vqa-workbench-0.2.195-setup.exe"
     }
   }
 }
