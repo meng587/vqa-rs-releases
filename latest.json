@@ -1,11 +1,11 @@
 {
-  "version": "0.2.197",
-  "notes": "1. 直播转码 UDP 出流：输出统一加 1 MB 发送缓冲，修复高码率突发时丢包导致接收端花屏/锁不住流\n2. 未填组播 TTL 时默认按 32 发（整形转发同步），跨三层更稳\n3. 左侧「设置」改为独立整页显示（页头/页签/常驻保存条），不再从右侧抽屉弹出\n4. 输出根目录统一归档截图/录像/日志/证据片段\n5. 告警存储跟随根目录并置灰提示，关于页叹号垂直居中",
-  "pub_date": "2026-11-27T08:45:47Z",
+  "version": "0.2.198",
+  "notes": "1. 直播转码：单文件轮播现在真正循环（此前只在多文件时生效，单文件播一遍就断流）\n2. 直播转码 UDP 出流：整形转发默认 TTL 32、1 MB 发送缓冲，局域网接收恢复正常\n3. 左侧「设置」改为独立整页显示（页头/页签/常驻保存条）\n4. 输出根目录统一归档截图/录像/日志/证据片段；告警存储跟随根目录\n5. 关于页新版本叹号垂直居中",
+  "pub_date": "2026-11-27T09:12:09Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW9lKzg5cG9WdENXQXVpSmRLbjlSNk5YQlpqWTJuSGRBckRpZHNXaWYyUUxuRy96dC9BTTkxMEc1V0k1M1N3dm1IajMxdUlnNDA4T0k3NXZzWE9BUFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzY5MTQ1CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTcKVEh0WWFNb3lJMDRHRU1ueVdCa0g2UklVNkRCM3p6TklzQkJ5T1QvbWJ1V3U3WGNyL1dTVzlZVjM2bHZHbDBTdE1TVldoUW90QlRoNmoxbFZRNlVGQWc9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.197/vqa-workbench-0.2.197-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWtDbzNsR2pKRXJrbnd0SFppM3JNMTVnbWlHdEtONGNXRVcvYjRjenJLeEoxSDFBc3RSVmk4Y2FkOTFxY3IvbTNrcHB6UmhyTTM3dGxtcHRWNUxlQVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzcwNzI3CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOThfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTgKeXpuaXZUOTAzZkRVdzVSY2hZcW1IRjBWRTRQNjNQbDlEcGZHMjd0YW1FcVpud1hZcHphUGhrVmZ1WVhoUmk3MWFKUmp1UnV2aXZMcWhYRytMczFBREE9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.198/vqa-workbench-0.2.198-setup.exe"
     }
   }
 }
