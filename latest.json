@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.192",
-    "notes":  "抓包增强：按源聚合与SSRC混流识别；抓包单卷/样本上限可配；产物删除与磁盘预检；关于页新增版权与联系方式；运行期每30分钟自动检查更新，发现新版在侧栏关于显示红色叹号并在状态栏提示",
-    "pub_date":  "2026-11-26T23:40:51Z",
+    "version":  "0.2.193",
+    "notes":  "拆库首发：源码转私有、安装包独立公开库；更新源改为 vqa-rs-releases 的 latest.json（GitHub 主源 + AtomGit 备源）；关于页更新源地址同步；版权与自动更新提醒随包",
+    "pub_date":  "2026-11-27T00:00:50Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZXArQ2huT3dnaDFoeFFjS051NFFrc21uVzN2ZFhJbStFYVV2RFlLengva2M0WTdHRWl2dEhxenorODZUajF5Y2IzM2ZWSld2TTlPWDVYOXBQWWh5cHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzM2NDQyCWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTIKeGFYVmwzTHlzY01LMXVqQWVhbU8ybGVVZnp1VFMwNWhnSGVRVytlb0ZCbjVzTU5haVFIeTVBZnFUYlhENkoyWTliajUzZXEweVBMeU1WVElvMzlpRFE9PQo=",
-                                             "url":  "https://github.com/meng587/vqa-rs/releases/download/v0.2.192/vqa-workbench-0.2.192-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW14RDRzL3hjbXl2cWgyQnpjQVpLUXpoS1hmY2FWUGpsbWpRRUwxNGxkR1RObTZCbEhZd0NPc1J6UXNndnp6OHF2b1ZDbG41MEhTQVAwc2l2QnhTZndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzM3NjQ4CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTMKallveWNvYXQ4NHA5dXlHdzdoVVBxRHdIZHhZcndSMkZCVG8xYUwxaTd3TDZSVytLcmt5RVRyUGZKcWtBM2ZkdUhtVWtENjZaUUt6ZitaK05PMERqQXc9PQo=",
+                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.193/vqa-workbench-0.2.193-setup.exe"
                                          }
                   }
 }
