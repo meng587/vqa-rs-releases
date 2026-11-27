@@ -1,11 +1,11 @@
 {
-  "version": "0.2.200",
-  "notes": "1. 设置页「检测口径」并入音画同步页，算法口径与参数集中一处；设置页只剩常规/AI 助手。\n2. 直播转码输出参数拆出独立「输出网卡」，组播源地址改为可任意填的纯源 IP；整形时按输出网卡强制组播出口。\n3. 多路判重改用真实目标地址（开整形时也能拦住同组播地址的第二路），去掉「再开一路」入口。\n4. 运行中改码率/GOP/音频/整形速率可点「保存并热更」就地重启这一路，断流约 1-2 秒；改分辨率/帧率/编码器与写盘输出会提示先停止。\n5. 关于页更新源两行可直接点开浏览器。",
-  "pub_date": "2026-11-27T12:15:42Z",
+  "version": "0.2.201",
+  "notes": "取消诊断包上传：关于页只保留导出到本地；移除上传命令、凭据与安装包内置 token",
+  "pub_date": "2026-11-27T13:17:52Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZXR5S1h1NkhBcTYzdVpXSUZEbU1qZkdwcGovNU9hS1dHVGM0ekVXU28xUjJvY0hma0JjSlpBVjJmV1VMSVhnK3dpa2p0a1N0RENxZ1lDb1p6SDhuUVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzgxNzM5CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDAKT1d3MGxVb2hNenowdU5tRGZJRk95TmpXTW5yVGY0aFVjZWgyRTNCUnJuNzIvNTJLb2tLK3gvM3p1VS9KOUtiekY2eEdWSUttazFSemFTQ3ppdDVnQlE9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.200/vqa-workbench-0.2.200-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWprQ1hmaWtsTFR3S1dPQndabHd4MlpoMDNLY1VHNFE1UUZpV0ViUVlqY2FiMmZHVFg5dC9Sek10dnp0TFFoK0Y4NmRqZ2luZlcyclZpSDdhYUwwTGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzg1NDU4CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDEKVE1lZjkzUEhnTlAzWS83b0prR0xLdHhJQ1E0Rm1WM3hEVlYxc0lwb2JlTjkweDFxVTNLNGFCQjkrZG1Gc1p3VzY0UCtILy95akJZTVkvaE9OMEVGQVE9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.201/vqa-workbench-0.2.201-setup.exe"
     }
   }
 }
