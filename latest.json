@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.193",
-    "notes":  "拆库首发：源码转私有、安装包独立公开库；更新源改为 vqa-rs-releases 的 latest.json（GitHub 主源 + AtomGit 备源）；关于页更新源地址同步；版权与自动更新提醒随包",
-    "pub_date":  "2026-11-27T00:00:50Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW14RDRzL3hjbXl2cWgyQnpjQVpLUXpoS1hmY2FWUGpsbWpRRUwxNGxkR1RObTZCbEhZd0NPc1J6UXNndnp6OHF2b1ZDbG41MEhTQVAwc2l2QnhTZndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzM3NjQ4CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTMKallveWNvYXQ4NHA5dXlHdzdoVVBxRHdIZHhZcndSMkZCVG8xYUwxaTd3TDZSVytLcmt5RVRyUGZKcWtBM2ZkdUhtVWtENjZaUUt6ZitaK05PMERqQXc9PQo=",
-                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.193/vqa-workbench-0.2.193-setup.exe"
-                                         }
-                  }
+  "version": "0.2.194",
+  "notes": "修复升级安装 NSIS Error（旧卸载器 _?= 目录解析）",
+  "pub_date": "2026-11-27T01:11:14Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZXVYLzlQWnRIdmZGWEZPc3pleFIybkJ5SUNjWTdRTU9VTHFlemhheHZYZ1Eyb2JNSFdMcXR4NUlaQmx4b0w4b2dlby9UTmVzU2EvdjFVbFBuZ1NhcHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQxODYwCWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4xOTRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xOTQKUGkvSUZSQWhncFZ0NUlRbnByeVE3ZGZGQW1oSGViL1lwYTlzZzRyUXptcVhteGs0RVp6MWM3cWh2bU1aSzhoWEt0Nmx2TnJTVWFFaDFRcEVObWVsQWc9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.194/vqa-workbench-0.2.194-setup.exe"
+    }
+  }
 }
