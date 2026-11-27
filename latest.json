@@ -1,11 +1,11 @@
 {
-  "version": "0.2.201",
-  "notes": "取消诊断包上传：关于页只保留导出到本地；移除上传命令、凭据与安装包内置 token",
-  "pub_date": "2026-11-27T13:17:52Z",
+  "version": "0.2.202",
+  "notes": "微突发检测：pcap 离线重算支持 UDP 与 TCP 拉流；逐次突发事件明细 + CSV 导出；双尺度基线（60/600 窗取更高门槛）压住周期 VBR 误报；TCP 拉流类型分类（RTSP/HLS/HTTP-FLV/MP4 等）与重传单独记账；突发与 CC 错误、PCR 跳变按同一时间轴对齐；明细表暗底可读性与 CSV 文件名本地时间修复。",
+  "pub_date": "2026-11-27T17:47:58Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWprQ1hmaWtsTFR3S1dPQndabHd4MlpoMDNLY1VHNFE1UUZpV0ViUVlqY2FiMmZHVFg5dC9Sek10dnp0TFFoK0Y4NmRqZ2luZlcyclZpSDdhYUwwTGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzg1NDU4CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDEKVE1lZjkzUEhnTlAzWS83b0prR0xLdHhJQ1E0Rm1WM3hEVlYxc0lwb2JlTjkweDFxVTNLNGFCQjkrZG1Gc1p3VzY0UCtILy95akJZTVkvaE9OMEVGQVE9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.201/vqa-workbench-0.2.201-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW52VEtzaUUrZVlYUFVteElSRWUreExDWDZrc2hzSUsxYUdEQThMdGY4Q2xXU2UrR0FoS3p4aXMvUXVjdEpzUC9rdlJBRGtkSjFZUEgzTmJwWWNZc3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODAxNjY0CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDIKYWpnUXU5K2FiN251ZzhGcXo4WGk2Z25iNjBET1BwU01RaXBrbWQyc043T2YxQ0NMUmhrQUZpZnZPQjVSaThacDZuTzlsWklGWEpWMVlka0ZzMUJyQkE9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.202/vqa-workbench-0.2.202-setup.exe"
     }
   }
 }
