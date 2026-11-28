@@ -1,11 +1,11 @@
 {
-  "version": "0.2.208",
-  "notes": "播放器新增「导出」：把本次转码结果（桥缓存＝已转好的 H.264+AAC TS）无重编码封装成 MP4，4K 片实测 0.4 秒，画质零损失；AVS2 / VVC / 10-bit 这类必须转码的源，播一次或等预热转完即可把成品带走（默认落源文件同目录、<原名>_H264.mp4）。Web 端不显示该按钮。",
-  "pub_date": "2026-11-28T12:22:49Z",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWlLb20wT0gwOVIveHFaOFE5Y0lwN05EV0pXSkFXbVY2eHEvTXRUejZMVHBqcjk2K1NscjY0VElOWXNMQVR4d2lLQlFHV2dGTVFrVG9SWHVGa2RjRHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODY4NTU2CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDhfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDgKTlE4K1Zpd1h2RE44OGI1L3l4TTNIYk1oclh6S05PcDBpT1Z0bEpUbFV0S25ucm9jbkF4eFFHcDNKV3BONEx1NGVIbDlHMUEzNWtpSVZaSUpvYlMrRFE9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.208/vqa-workbench-0.2.208-setup.exe"
-    }
-  }
+    "version":  "0.2.209",
+    "notes":  "离线转码接桥：本地 AVS2 源直接转，不用先播一遍（抽裸流 → davs2 8bit 管道 → 本机编码器）；透传自动改 H.264/AC3 重编，音画错位 128ms→5ms；裸流残留文件自动清理",
+    "pub_date":  "2026-11-28T13:32:46Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW1EZ2pxVWlzekcrV0U1QlhoTGhWSXZjaTJZdDhudmdnVFdDM2M1KzRKS2hUTkxFREpVNkpkZW9ZWStycmdQT0t6NGR3TXduS3g1eXlBcjYzcWtUN2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODcyNzUyCWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDlfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDkKN0RqdzdKRU1RV0NIa1A1eURLMGlYNk1TcU5EZXhLOXVObjBqUnNGSEJGd0RzTlYyU3lWWUVtRkVhMC9aK1pKdWd4VW9HUnAzM1NlVFZ6c2kwOGN0QWc9PQo=",
+                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.209/vqa-workbench-0.2.209-setup.exe"
+                                         }
+                  }
 }
