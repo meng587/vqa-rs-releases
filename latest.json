@@ -1,11 +1,11 @@
 {
-  "version": "0.2.202",
-  "notes": "微突发检测：pcap 离线重算支持 UDP 与 TCP 拉流；逐次突发事件明细 + CSV 导出；双尺度基线（60/600 窗取更高门槛）压住周期 VBR 误报；TCP 拉流类型分类（RTSP/HLS/HTTP-FLV/MP4 等）与重传单独记账；突发与 CC 错误、PCR 跳变按同一时间轴对齐；明细表暗底可读性与 CSV 文件名本地时间修复。",
-  "pub_date": "2026-11-27T17:47:58Z",
+  "version": "0.2.203",
+  "notes": "0.2.203：微突发检测支持 pcapng(.gz) 直读、分钟分布与包级突发串，新增 HTML 报告与四种导出；抓包页支持实时 TCP；页头与底栏按页显示本页结果，出结果不再撑动版式。",
+  "pub_date": "2026-11-28T03:23:42Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW52VEtzaUUrZVlYUFVteElSRWUreExDWDZrc2hzSUsxYUdEQThMdGY4Q2xXU2UrR0FoS3p4aXMvUXVjdEpzUC9rdlJBRGtkSjFZUEgzTmJwWWNZc3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODAxNjY0CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDIKYWpnUXU5K2FiN251ZzhGcXo4WGk2Z25iNjBET1BwU01RaXBrbWQyc043T2YxQ0NMUmhrQUZpZnZPQjVSaThacDZuTzlsWklGWEpWMVlka0ZzMUJyQkE9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.202/vqa-workbench-0.2.202-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZXZtdVYzUFo4YlJINXA4dWxQNE5sVFhHbzdUTjFZY29sTldUMndTaklZcFlTU0tXZldBenpSUzFDaW4zY0EzMTU0ZEkvZ3I3alFWWDJVQlZ3TXF2Z1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODM2MjE4CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDMKU094MFNaY3lTZ2l6Wmgyd1ZqV3BjM0RUU3RLQngyaktuSTJBMm1PaDlhN1J6YzB5SFhPU2U1UENoM3Y3VmIrMjRGYklucDI3WWpVdmlrazErLzEwQ2c9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.203/vqa-workbench-0.2.203-setup.exe"
     }
   }
 }
