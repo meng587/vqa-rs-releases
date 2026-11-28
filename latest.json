@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.206",
-    "notes":  "修复 4K AVS2 本地文件播放：并行分片桥抽流落文件、davs2 读文件，边转边播与缓存可拖动均可用",
-    "pub_date":  "2026-11-28T09:54:35Z",
+    "version":  "0.2.207",
+    "notes":  "davs2 启用 x86 汇编重编（SSE4.2/AVX2 全开），4K AVS2 10bit 单进程解码 49.6→56.8 fps（+15%）；修复 10bit 构建 SAO 汇编缺符号导致链接失败；补 davs2 构建说明文档",
+    "pub_date":  "2026-11-28T10:24:20Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWxObVZjNDdHM3J5T044QkN5WEJJK2NLMGJBY3d2V2RWY0hpZnY5UWNCSGxFTXFqZGlYN3YwdjByT2VLVExnbTZsdzduM2x1ZHdQQnI1bkZlVkhXb1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU5NjczCWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDYKeVR2MHJWa3g1cTJJVEhuUlVEdG9WU2t0V2lJdFFwdkV6U203QXB6TWhCajNSZllyKzJNNjVTQmJaYnpKaytPVmpjNUgvVUVQbzZ3VHRoS29WYmYrQ1E9PQo=",
-                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.206/vqa-workbench-0.2.206-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW52ZFBmR3E5aStPVUVWR1o0OUN0SEwwcHBuTTJoVFlRVVlXVWJhTUtoWlhtU1NyRnd2bDVnTGdCelJ0YWkwOWFhb1lpSitHV3R5WmtlUXlOYlQ2REFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODYxNDU3CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDcKN1h1OFdjUE13b1JBMENWS0NQNlJYUlEzVjBhZVhpMFppWFAzU2VST1hnWUh1RHp6dzAwSWRxUmh0ektWKzBtQklRaUdKbE51Z2cyTXRMd2ZxVTk3Q3c9PQo=",
+                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.207/vqa-workbench-0.2.207-setup.exe"
                                          }
                   }
 }
