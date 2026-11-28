@@ -1,11 +1,11 @@
 {
-  "version": "0.2.203",
-  "notes": "0.2.203：微突发检测支持 pcapng(.gz) 直读、分钟分布与包级突发串，新增 HTML 报告与四种导出；抓包页支持实时 TCP；页头与底栏按页显示本页结果，出结果不再撑动版式。",
-  "pub_date": "2026-11-28T03:23:42Z",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZXZtdVYzUFo4YlJINXA4dWxQNE5sVFhHbzdUTjFZY29sTldUMndTaklZcFlTU0tXZldBenpSUzFDaW4zY0EzMTU0ZEkvZ3I3alFWWDJVQlZ3TXF2Z1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODM2MjE4CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDMKU094MFNaY3lTZ2l6Wmgyd1ZqV3BjM0RUU3RLQngyaktuSTJBMm1PaDlhN1J6YzB5SFhPU2U1UENoM3Y3VmIrMjRGYklucDI3WWpVdmlrazErLzEwQ2c9PQo=",
-      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.203/vqa-workbench-0.2.203-setup.exe"
-    }
-  }
+    "version":  "0.2.204",
+    "notes":  "设置新增解码器页；uavs3d/vvdec 随包内置，AVS3/VVC 4K 软解可直接用",
+    "pub_date":  "2026-11-28T07:46:48Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW03TVpYbVJYNGJuN0pUeEFpb3ZhdVRaSkczdFlwSFJRZjZ0OEIwRzczSUF1V2lwcjAvS0JpNEx2YUpsQWhXNStjK3djU2N6KzV2RzlCQ1ZKR2hseVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUyMDA1CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDQKajZnOXBNR0FZUDlFZjBQNEJzVC9pek1CV05ERkViaWRmVGFjNWQzRVQ0SFlIaVdnalM0WUMxWEQ5VWlkWEROMkNuWXErT0t5NmlSSXppQkRla0IzRGc9PQo=",
+                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.204/vqa-workbench-0.2.204-setup.exe"
+                                         }
+                  }
 }
