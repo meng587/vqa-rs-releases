@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.205",
-    "notes":  "VVC 本地文件接入随包 vvdec 转码桥；解码器页可安装内置版",
-    "pub_date":  "2026-11-28T09:17:51Z",
+    "version":  "0.2.206",
+    "notes":  "修复 4K AVS2 本地文件播放：并行分片桥抽流落文件、davs2 读文件，边转边播与缓存可拖动均可用",
+    "pub_date":  "2026-11-28T09:54:35Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZXN5elBTV05tTCtBTklHanVqTm1DdEdHUitadGJ1bldIeSsyTFZqVHM3dTFnTmJ0ZnhvN3h1OVYxbGlFWnlKVVd0WE5DanJldSsxY0NLWVdtWDdtNmc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU3NDY5CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDUKRDFRb1RDZloxTk51Wm5tUEY0bk5TREkvNEJqRkNMc25mZTF5QnEzS3BRK1ErSTRGNUJmWEtGc2NOMFBXS0VYU0ExRjd3eTZFUFRwUEhHUFVPZ3NDQVE9PQo=",
-                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.205/vqa-workbench-0.2.205-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWxObVZjNDdHM3J5T044QkN5WEJJK2NLMGJBY3d2V2RWY0hpZnY5UWNCSGxFTXFqZGlYN3YwdjByT2VLVExnbTZsdzduM2x1ZHdQQnI1bkZlVkhXb1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU5NjczCWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDYKeVR2MHJWa3g1cTJJVEhuUlVEdG9WU2t0V2lJdFFwdkV6U203QXB6TWhCajNSZllyKzJNNjVTQmJaYnpKaytPVmpjNUgvVUVQbzZ3VHRoS29WYmYrQ1E9PQo=",
+                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.206/vqa-workbench-0.2.206-setup.exe"
                                          }
                   }
 }
