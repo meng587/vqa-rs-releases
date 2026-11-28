@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.209",
-    "notes":  "离线转码接桥：本地 AVS2 源直接转，不用先播一遍（抽裸流 → davs2 8bit 管道 → 本机编码器）；透传自动改 H.264/AC3 重编，音画错位 128ms→5ms；裸流残留文件自动清理",
-    "pub_date":  "2026-11-28T13:32:46Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW1EZ2pxVWlzekcrV0U1QlhoTGhWSXZjaTJZdDhudmdnVFdDM2M1KzRKS2hUTkxFREpVNkpkZW9ZWStycmdQT0t6NGR3TXduS3g1eXlBcjYzcWtUN2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODcyNzUyCWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDlfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDkKN0RqdzdKRU1RV0NIa1A1eURLMGlYNk1TcU5EZXhLOXVObjBqUnNGSEJGd0RzTlYyU3lWWUVtRkVhMC9aK1pKdWd4VW9HUnAzM1NlVFZ6c2kwOGN0QWc9PQo=",
-                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.209/vqa-workbench-0.2.209-setup.exe"
-                                         }
-                  }
+  "version": "0.2.210",
+  "notes": "播放器空态提示按实际能力重写：本地 TS/M2TS/MP4/MKV/FLV/MOV/AVI/WEBM 可直接拖入或点选，udp/rtp 组播与单播、rtsp、rtmp(s)、http(s) 直播地址，AVS2 源自动接解码器；修好「选择本地文件」里选不到 MOV/WEBM 的问题",
+  "pub_date": "2026-11-28T14:05:50Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW1LNDdzTE9UejRyMkxmbCtWalRZQ3plNmZlNUdSWXRiNG1hL2l4dGZLZ0NScnZjYTNjcGw5UXFCRU9mQkxRc3NrSFpJaUJRZFgvaDB0MjVSQnFiZHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODc0NzM2CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMTBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMTAKRGdEcWdRRVVZZlNzaHVlNXpGdERDS3h6SlBOMmdTbjBYQTdseWRTRkJIeUdNK1NSMjVNaHFGSG41T2sxY0FnelpNSW1JeGphZXhmYXJoZ0kzOXlSQ0E9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.210/vqa-workbench-0.2.210-setup.exe"
+    }
+  }
 }
