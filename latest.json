@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.204",
-    "notes":  "设置新增解码器页；uavs3d/vvdec 随包内置，AVS3/VVC 4K 软解可直接用",
-    "pub_date":  "2026-11-28T07:46:48Z",
+    "version":  "0.2.205",
+    "notes":  "VVC 本地文件接入随包 vvdec 转码桥；解码器页可安装内置版",
+    "pub_date":  "2026-11-28T09:17:51Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW03TVpYbVJYNGJuN0pUeEFpb3ZhdVRaSkczdFlwSFJRZjZ0OEIwRzczSUF1V2lwcjAvS0JpNEx2YUpsQWhXNStjK3djU2N6KzV2RzlCQ1ZKR2hseVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUyMDA1CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDQKajZnOXBNR0FZUDlFZjBQNEJzVC9pek1CV05ERkViaWRmVGFjNWQzRVQ0SFlIaVdnalM0WUMxWEQ5VWlkWEROMkNuWXErT0t5NmlSSXppQkRla0IzRGc9PQo=",
-                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.204/vqa-workbench-0.2.204-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZXN5elBTV05tTCtBTklHanVqTm1DdEdHUitadGJ1bldIeSsyTFZqVHM3dTFnTmJ0ZnhvN3h1OVYxbGlFWnlKVVd0WE5DanJldSsxY0NLWVdtWDdtNmc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU3NDY5CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDUKRDFRb1RDZloxTk51Wm5tUEY0bk5TREkvNEJqRkNMc25mZTF5QnEzS3BRK1ErSTRGNUJmWEtGc2NOMFBXS0VYU0ExRjd3eTZFUFRwUEhHUFVPZ3NDQVE9PQo=",
+                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.205/vqa-workbench-0.2.205-setup.exe"
                                          }
                   }
 }
