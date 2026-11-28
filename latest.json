@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.207",
-    "notes":  "davs2 启用 x86 汇编重编（SSE4.2/AVX2 全开），4K AVS2 10bit 单进程解码 49.6→56.8 fps（+15%）；修复 10bit 构建 SAO 汇编缺符号导致链接失败；补 davs2 构建说明文档",
-    "pub_date":  "2026-11-28T10:24:20Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZW52ZFBmR3E5aStPVUVWR1o0OUN0SEwwcHBuTTJoVFlRVVlXVWJhTUtoWlhtU1NyRnd2bDVnTGdCelJ0YWkwOWFhb1lpSitHV3R5WmtlUXlOYlQ2REFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODYxNDU3CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDcKN1h1OFdjUE13b1JBMENWS0NQNlJYUlEzVjBhZVhpMFppWFAzU2VST1hnWUh1RHp6dzAwSWRxUmh0ektWKzBtQklRaUdKbE51Z2cyTXRMd2ZxVTk3Q3c9PQo=",
-                                             "url":  "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.207/vqa-workbench-0.2.207-setup.exe"
-                                         }
-                  }
+  "version": "0.2.208",
+  "notes": "播放器新增「导出」：把本次转码结果（桥缓存＝已转好的 H.264+AAC TS）无重编码封装成 MP4，4K 片实测 0.4 秒，画质零损失；AVS2 / VVC / 10-bit 这类必须转码的源，播一次或等预热转完即可把成品带走（默认落源文件同目录、<原名>_H264.mp4）。Web 端不显示该按钮。",
+  "pub_date": "2026-11-28T12:22:49Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVFHSmtoRi9LZWlLb20wT0gwOVIveHFaOFE5Y0lwN05EV0pXSkFXbVY2eHEvTXRUejZMVHBqcjk2K1NscjY0VElOWXNMQVR4d2lLQlFHV2dGTVFrVG9SWHVGa2RjRHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODY4NTU2CWZpbGU66KeG5ZCs6LSo6YeP5qOA5rWL5bel5L2c56uZXzAuMi4yMDhfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4yMDgKTlE4K1Zpd1h2RE44OGI1L3l4TTNIYk1oclh6S05PcDBpT1Z0bEpUbFV0S25ucm9jbkF4eFFHcDNKV3BONEx1NGVIbDlHMUEzNWtpSVZaSUpvYlMrRFE9PQo=",
+      "url": "https://github.com/meng587/vqa-rs-releases/releases/download/v0.2.208/vqa-workbench-0.2.208-setup.exe"
+    }
+  }
 }
